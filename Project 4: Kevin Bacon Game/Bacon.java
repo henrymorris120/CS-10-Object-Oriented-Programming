@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Kevin Bacon Game
  * PS4
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 public class Bacon {
     Map<String, String> actorIDToActors;
