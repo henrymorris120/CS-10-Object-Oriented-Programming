@@ -1,11 +1,8 @@
 import java.awt.*;
 
 /**
- * PS-2 provided code
  * Extends Point with a radius and the ability to move and draw itself.
  * If the point attempts to move off-screen, rebounds in the opposite direction to stay on-screen.
- *
- * @author Tim Pierson, Dartmouth CS10, Winter 2024, based on code from prior terms
  */
 public class MovingPoint extends Point {
     protected int r=5;                      // radius of this point
