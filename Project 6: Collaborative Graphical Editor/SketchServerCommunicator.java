@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Handles communication between the server and one client, for SketchServer
  *
  * PS6
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 public class SketchServerCommunicator extends Thread {
 	private Socket sock;					// to talk with client
