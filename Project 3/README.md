@@ -1,6 +1,4 @@
-My first test uses a file with just “Hello World” on it in order to test if my program would
-work on a small amount of text. The next three tests are boundary tests where the file either has
-just one character, a repeated amount of a single character, or is empty. The compressed size of
-WarAndPeace.txt is 10323 lines in comparison to the 65355 lines in the original and
-decompressed file, meaning that my compression is doing a good job of actually compressing the
-file.
+## Huffman Encoding
+Here I use Huffman encoding to compress and decompress files. The files `BufferedBitReader` and `BufferedBitWrite` were not written by me, and were provided by professor as Java library does not have classes to read and write bits. In terms of lossless file compression, Huffman encoding gives the smallest possible fixed encoding of a file. A description of how Huffman encoding works can be found online or in the class textbook.
+
+As seen in 'Huffman.java', there are many test cases (including boundry tests) which ensure no errors are present. As for the results, `WarAndPeace.txt` is 10323 lines and was able to be compressed to 65355 lines losslessly.
