@@ -3,8 +3,7 @@ import java.util.*;
 
 /**
  * PS4 Graph Library
- * PS4
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 
 public class PS4GraphLib {
