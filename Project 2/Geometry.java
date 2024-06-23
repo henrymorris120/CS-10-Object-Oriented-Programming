@@ -1,8 +1,8 @@
 /**
  * Geometry helper methods
  * 
- * @author Chris Bailey-Kellogg, Dartmouth CS 10, Spring 2015
- * @author CBK, Fall 2016, separated from quadtree, instrumented to count calls
+ * @author Henry Morris, Spring 2022, CS 10
+ * Problem Set 2
  * 
  */
 public class Geometry {
