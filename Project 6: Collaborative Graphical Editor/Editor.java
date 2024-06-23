@@ -8,7 +8,7 @@ import javax.swing.*;
 /**
  * Editor
  * PS6
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 
 public class Editor extends JFrame {
