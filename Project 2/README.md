@@ -9,6 +9,15 @@ The purpose of this project is to implement a point quadtree data structure to e
 
     Helper functions for testing point-in-circle and circle-intersects-rectangle
 
-**** 
+**InteractiveGUI** 
 
-    Helper functions for testing point-in-circle and circle-intersects-rectangle
+    Extends our ImageGUI from a prior lecture, but adds a timer (to drive animation for 
+    CollisionGUI) and some call back methods that can be overrided. See description in file.
+
+**MovingGUI** 
+
+    Extends the Java-provided Point class for CollisionGUI. See descripti
+
+**DotTreeGUI**
+
+    Extends InteractiveGUI.
