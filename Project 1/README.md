@@ -13,3 +13,7 @@ regions(Color targetColor). It follows a basic flood fill algorithm, described i
             If the neighbor is of the correct color
               Add it to the list of pixels to be visited
         If the region is big enough to be worth keeping, do so
+
+CamPaint works like most webcam code in terms of its basic structure. Once the region finder gives the location of the brush (the largest region), it will update the painting accordingly. That is, the pixels that are in the largest region should be colored in the painting, thereby leaving a trail.
+
+In this folder you will find region finder used on a picture of Baker Library as Dartmouth to color each region.
