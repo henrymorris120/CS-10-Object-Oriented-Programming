@@ -7,7 +7,7 @@ import java.io.*;
  * updating the overall state, and passing them on to the clients
  *
  * PS6
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 public class SketchServer {
 	private ServerSocket listen;						// for accepting connections
