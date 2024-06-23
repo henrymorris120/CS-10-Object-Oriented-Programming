@@ -3,7 +3,7 @@ import java.awt.*;
 /**
  * A line segment-shaped Shape
  * PS6
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 public class Segment implements Shape {
 	private int x1, y1, x2, y2;		// two endpoints
