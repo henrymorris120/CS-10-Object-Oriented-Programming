@@ -16,8 +16,8 @@ The purpose of this project is to implement a point quadtree data structure to e
 
 **MovingGUI** 
 
-    Extends the Java-provided Point class for CollisionGUI. See descripti
+    Extends the Java-provided Point class for CollisionGUI. See description in file.
 
-**DotTreeGUI**
+**DotTreeGUI** and **CollisionGUI**
 
-    Extends InteractiveGUI.
+    Extends InteractiveGUI. See exact description in file for what each one does.
