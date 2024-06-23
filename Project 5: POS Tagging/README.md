@@ -1,1 +1,8 @@
-
+# POS Tagging
+In this project, I use a hidden Markov model (HMM) approach to do part of speech tagging. So the states, which I cannot see, are the parts of speeches, and the observations, which I can see, are the words in sentences. The model works by having each tag depend only on the previous tag (this means I make a "bigram" model, but note having it be a "trigram" model would not involve that much tweaking).
+## Training
+The first step is to build the HMM using training from text files. Essentially, I just go through each sentence and count up, for each tag, how many times each word was observed with that tag, and how many times each other tag followed it. Then I converts these counts to log probabilities (a more detailed analysis of the process can be found going through `training`).
+## Viterbi
+Using the model obtained from the training, I employ the Viterbi algorithm to find the best path for a given sentence. The Viterbi algorithm starts at the *#* (start) state, with a score of 0, before any observation. Then to handle observation *i*, it propagates from each reached state at observation *i-1*, following each transition. The score for the next state as of observation *i* is the sum of the score at the current state as of *i-1*, plus the transition score from current to next, plus the score of observation *i* in the next. I propagate forward from each current state to each next and check whether or not I've found something better, ultimately giving me the the best path of POS for the sentence.
+## Testing
+Using the files in `texts`, the accuracy of the program can be seen to be very strong. As expected, errors are more probably when the program sees a word it cannot identify.
