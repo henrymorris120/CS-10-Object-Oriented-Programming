@@ -5,7 +5,7 @@ import java.awt.*;
  * Defined by an upper-left corner (x1,y1) and a lower-right corner (x2,y2)
  * with x1<=x2 and y1<=y2
  * PS6
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 public class Ellipse implements Shape {
 	private int x1, y1, x2, y2;		// upper left and lower right
