@@ -86,7 +86,6 @@ public class Segment implements Shape {
 
 	/**
 	 * Helper method to compute the distance between a point (x,y) and a segment (x1,y1)-(x2,y2)
-	 * http://stackoverflow.com/questions/849211/shortest-distance-between-a-point-and-a-line-segment
 	 */
 	public static double pointToSegmentDistance(int x, int y, int x1, int y1, int x2, int y2) {
 		double l2 = dist2(x1, y1, x2, y2);
