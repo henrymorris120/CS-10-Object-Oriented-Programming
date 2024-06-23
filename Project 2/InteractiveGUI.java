@@ -4,12 +4,11 @@ import java.awt.event.*;
 import java.awt.image.BufferedImage;
 
 /**
- * PS-2 provided code
  * An interactive version of the simple ImageGUI class
  * Introduces a timer that when started, ticks every 100 milliseconds by default (change with 'f' or 's' keys)
  * Adds methods for handleKeyPress, handleMousePress, handleMouseMotion, and handleTimer
- *
- * @author Tim Pierson, Dartmouth CS10, Winter 2024, based on DrawingGUI from prior terms
+ * @author Henry Morris, Spring 2022, CS 10
+ * Problem Set 2
  */
 public class InteractiveGUI extends ImageGUI {
 	protected Timer timer;							// timer to tick every delay milliseconds
