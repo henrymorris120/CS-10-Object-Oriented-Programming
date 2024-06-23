@@ -1,6 +1,6 @@
 /**
  * A class to hold a (frequency, character) pair for Huffman Code Tree
- * @author Scot Drysdale
+ * @author Henry Morris
  */
 public class CodeTreeElement {
 	Long myFrequency;       // The frequency with which the character occurred
