@@ -17,3 +17,5 @@ regions(Color targetColor). It follows a basic flood fill algorithm, described i
 CamPaint works like most webcam code in terms of its basic structure. Once the region finder gives the location of the brush (the largest region), it will update the painting accordingly. That is, the pixels that are in the largest region should be colored in the painting, thereby leaving a trail.
 
 In this folder you will find region finder used on a picture of Baker Library as Dartmouth to color each region.
+
+It should also be note that `ImageGUI.java` and `ImageIOLibrary.java` were not written by myself and are short given files from the professor. They may be necessary to run some of the other programs in other projects. 
