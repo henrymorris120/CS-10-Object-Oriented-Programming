@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * A multi-segment Shape, with straight lines connecting "joint" points -- (x1,y1) to (x2,y2) to (x3,y3) ...
  * PS6
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 public class Polyline implements Shape {
 	private String identifier;				// identifier for the shape
