@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Handles communication to/from the server for the editor
  *
  * PS6
- * @author Henry Morris and Izzy Axinn, Dartmouth CS 10, Spring 2022
+ * @author Henry Morris, Dartmouth CS 10, Spring 2022
  */
 public class EditorCommunicator extends Thread {
 	private PrintWriter out;        // to server
