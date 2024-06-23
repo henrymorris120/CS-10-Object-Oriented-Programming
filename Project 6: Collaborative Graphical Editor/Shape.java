@@ -2,9 +2,6 @@ import java.awt.*;
 
 /**
  * A geometric entity with a color
- * 
- * @author Chris Bailey-Kellogg, Dartmouth CS 10, Spring 2016, based on a related concept from previous terms
- * @author CBK, revised Fall 2016
  */
 
 public interface Shape {
